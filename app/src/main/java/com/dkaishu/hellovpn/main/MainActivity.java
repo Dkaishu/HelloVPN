@@ -1,11 +1,13 @@
-package com.dkaishu.hellovpn;
+package com.dkaishu.hellovpn.main;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.VpnService;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.dkaishu.hellovpn.R;
+
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int request, int result, Intent data) {
         if (result == RESULT_OK) {
             Intent intent = new Intent(this, HelloVpnService.class);
-
             startService(intent);
         }
     }

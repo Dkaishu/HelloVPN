@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloVPN.iml" filepath="$PROJECT_DIR$/HelloVPN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HelloVPN.iml" filepath="$PROJECT_DIR$/.idea/HelloVPN.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
